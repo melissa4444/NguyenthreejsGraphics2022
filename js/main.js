@@ -4,8 +4,7 @@
  * Final Project
  * winter-2022
  * 
- * notes: finally using webgl with three.js and 
- * react three fiber
+ * notes: finally using webgl with three.js 
  * 
  */
 const scene = new THREE.Scene();
