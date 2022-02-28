@@ -3,7 +3,7 @@ let cameraControls;
 let clock = new THREE.Clock();
 
 function createScene() {
-    let mat = new THREE.MeshLambertMaterial({color: 'green'});
+    let mat = new THREE.MeshLambertMaterial({color: 'blue'});
     let geom = new THREE.SphereGeometry(1,12,12);
     var mesh = new THREE.Mesh(geom, mat);
     let helix = createHelix(mesh, 49, 2, Math.PI/4, 0.5);
